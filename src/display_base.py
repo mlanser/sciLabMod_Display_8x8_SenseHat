@@ -1,6 +1,9 @@
 from abc import ABC, abstractmethod
 
 
+# =========================================================
+#        M A I N   C L A S S   D E F I N I T I O N
+# =========================================================
 class _DisplayBase(ABC):
     def __init__(self, resX, resY, colors, displType):
         self._resX = resX
